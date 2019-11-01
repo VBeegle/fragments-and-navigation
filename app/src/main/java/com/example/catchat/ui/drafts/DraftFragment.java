@@ -10,9 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.example.catchat.R;
-import com.example.catchat.ui.dagger.DaggerViewModelComponent;
-import com.example.catchat.ui.dagger.ViewModelComponent;
-import com.example.catchat.ui.dagger.ViewModelModule;
+import com.example.catchat.dagger.DaggerViewModelComponent;
+import com.example.catchat.dagger.ViewModelComponent;
+import com.example.catchat.dagger.ViewModelModule;
 
 import javax.inject.Inject;
 

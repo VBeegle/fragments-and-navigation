@@ -10,9 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.example.catchat.R;
-import com.example.catchat.ui.dagger.DaggerViewModelComponent;
-import com.example.catchat.ui.dagger.ViewModelComponent;
-import com.example.catchat.ui.dagger.ViewModelModule;
+import com.example.catchat.dagger.DaggerViewModelComponent;
+import com.example.catchat.dagger.ViewModelComponent;
+import com.example.catchat.dagger.ViewModelModule;
 
 import javax.inject.Inject;
 
@@ -27,7 +27,7 @@ public class TrashFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_trash, container, false);
 
         ViewModelComponent component = DaggerViewModelComponent.builder()
-                .viewModelModule(new ViewModelModule(getString(R.string.title_draft)))
+                .viewModelModule(new ViewModelModule(getString(R.string.title_trash)))
                 .build();
 
         component.inject(this);

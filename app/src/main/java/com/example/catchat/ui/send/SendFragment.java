@@ -6,20 +6,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.example.catchat.R;
-import com.example.catchat.ui.dagger.DaggerViewModelComponent;
-import com.example.catchat.ui.dagger.ViewModelComponent;
-import com.example.catchat.ui.dagger.ViewModelModule;
+import com.example.catchat.dagger.DaggerViewModelComponent;
+import com.example.catchat.dagger.ViewModelComponent;
+import com.example.catchat.dagger.ViewModelModule;
 
 import javax.inject.Inject;
-
-import dagger.Provides;
 
 public class SendFragment extends Fragment {
 

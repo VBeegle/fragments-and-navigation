@@ -1,6 +1,4 @@
-package com.example.catchat.ui.dagger;
-
-import androidx.lifecycle.ViewModel;
+package com.example.catchat.dagger;
 
 import com.example.catchat.ui.drafts.DraftViewModel;
 import com.example.catchat.ui.messages.MessagesViewModel;

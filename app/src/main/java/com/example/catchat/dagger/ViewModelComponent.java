@@ -1,4 +1,4 @@
-package com.example.catchat.ui.dagger;
+package com.example.catchat.dagger;
 
 import com.example.catchat.ui.drafts.DraftFragment;
 import com.example.catchat.ui.messages.MessagesFragment;
